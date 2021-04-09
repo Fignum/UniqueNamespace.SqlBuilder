@@ -1,15 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueNamespace.SqlBuilder", "SqlBuilder\UniqueNamespace.SqlBuilder.csproj", "{E008F506-B0B2-4D98-9233-F8A7DEBA3B1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fignum.UniqueNamespace.SqlBuilder", "SqlBuilder\Fignum.UniqueNamespace.SqlBuilder.csproj", "{E008F506-B0B2-4D98-9233-F8A7DEBA3B1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueNamespace.SqlBuilder.Insight", "UniqueNamespace.SqlBuilder.Insight\UniqueNamespace.SqlBuilder.Insight.csproj", "{6108B344-FDA6-4EFE-9F42-A92AA6890883}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueNamespace.SqlBuilder.Dapper", "UniqueNamespace.SqlBuilder.Dapper\UniqueNamespace.SqlBuilder.Dapper.csproj", "{9CF02A12-34F2-4FE0-AFB6-36833AEAB28C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{841112F3-4C0D-4FAD-89BC-E2D661E26F92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fignum.UniqueNamespace.SqlBuilder.Dapper", "UniqueNamespace.SqlBuilder.Dapper\Fignum.UniqueNamespace.SqlBuilder.Dapper.csproj", "{9CF02A12-34F2-4FE0-AFB6-36833AEAB28C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8049E2EB-9CBE-47EE-A01A-2FA830142AF1}"
 	ProjectSection(SolutionItems) = preProject
@@ -26,20 +22,15 @@ Global
 		{E008F506-B0B2-4D98-9233-F8A7DEBA3B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E008F506-B0B2-4D98-9233-F8A7DEBA3B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E008F506-B0B2-4D98-9233-F8A7DEBA3B1A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6108B344-FDA6-4EFE-9F42-A92AA6890883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6108B344-FDA6-4EFE-9F42-A92AA6890883}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6108B344-FDA6-4EFE-9F42-A92AA6890883}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6108B344-FDA6-4EFE-9F42-A92AA6890883}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9CF02A12-34F2-4FE0-AFB6-36833AEAB28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9CF02A12-34F2-4FE0-AFB6-36833AEAB28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CF02A12-34F2-4FE0-AFB6-36833AEAB28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CF02A12-34F2-4FE0-AFB6-36833AEAB28C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{841112F3-4C0D-4FAD-89BC-E2D661E26F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{841112F3-4C0D-4FAD-89BC-E2D661E26F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{841112F3-4C0D-4FAD-89BC-E2D661E26F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{841112F3-4C0D-4FAD-89BC-E2D661E26F92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D918FD0-5551-4C1C-B058-DC5D903A9EF8}
 	EndGlobalSection
 EndGlobal
